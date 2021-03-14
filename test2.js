@@ -27,7 +27,5 @@ document.querySelector( '#download' ).addEventListener( 'click', async ( { targe
 	/////
 	const image = await downloadPromise
 	alert(image)
-
-	
-
+	document.getElementById("cancel").style.display="none";
 } );
