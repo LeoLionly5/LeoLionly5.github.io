@@ -26,7 +26,7 @@ document.querySelector( '#download' ).addEventListener( 'click', async ( { targe
 	}
 	/////
 	const image = await downloadPromise
-	alert("The image has been downloaded", image)
+	alert(image)
 
 	
 
